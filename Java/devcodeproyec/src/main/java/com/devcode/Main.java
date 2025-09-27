@@ -7,5 +7,7 @@ public class Main {
         Motor motorV8 = new Motor("V8", 450);
         Carro carro = new Carro("Mustang", "Vermelho", 2021, motorV8);
         carro.acelerar();
+        motorV8.ligar();
+        motorV8.desligar();
     }
 }

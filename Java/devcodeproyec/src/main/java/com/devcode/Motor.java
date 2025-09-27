@@ -26,7 +26,10 @@ public class Motor {
     }
 
     public void ligar() {
-        System.out.println("O motor " + tipo + " de " + potencia + " cavalos está ligado.");
+        System.out.println("O motor " + tipo + " de " + potencia + " caballos está ligado.");
     }
 
+    public void desligar() {
+        System.out.println("O motor " + tipo + " de " + potencia + " caballos está desligado.");
+    }
 }
